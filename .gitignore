@@ -1,0 +1,17 @@
+# Ambiente Virtual
+.venv/
+venv/
+ENV/
+
+
+# Variáveis de ambiente
+.env
+
+# Rascunhos / Testes locais
+teste.py
+teste_zapi.py
+
+# Arquivos do sistema
+__pycache__/
+*.pyc
+.DS_Store
