@@ -1,5 +1,6 @@
 from config.supabase_client import supabase
 
+
 class ContactsRepository:
 
     @staticmethod
@@ -10,7 +11,7 @@ class ContactsRepository:
             .table("contatos")
             .select("*")
             .limit(limit)
-            .execute
+            .execute()
         )
 
         return response.data
