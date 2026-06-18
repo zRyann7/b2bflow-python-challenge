@@ -26,10 +26,7 @@ class WhatsAppService:
 
         payload = {
             "phone": phone,
-            "message": (
-                f"Olá, {name}! Tudo bem com você? 😊\n"
-                f"Aqui é da B2BFlow, entrando em contato."
-            )
+            "message": f"Olá, {name} tudo bem com você?"
         }
 
         response = requests.post(

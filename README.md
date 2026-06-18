@@ -47,5 +47,5 @@ Z_API_CLIENT_TOKEN=seu-client-token-z-api
 
 2. **Execute o script principal:**
    ```bash
-   python main.py
+   src/main.py
    ```
